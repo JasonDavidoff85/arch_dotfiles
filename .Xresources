@@ -1,0 +1,40 @@
+!URxvt.font:xft:droid sans mono slashes:size=10.5
+!URxvt.boldFont:xft:droid sans mono slashed:size=10.5
+URxvt*scrollBar: false
+URxvt*internalBorder: 38
+
+!here before:
+URxvt*foreground: white
+URxvt*background: #000000
+
+! broken font:
+!URxvt*font: xft:ubuntumononerdfont:size=11:antialias=true
+
+! Original font:
+!URxvt*font: xft:mono:medium:size=11, xft:ttf-symbola:size=12
+
+! Nick font
+!*.font: xft:Overpass Mono:size=10
+!Xft.dpi: 96
+!Xft.antialias: 1
+!Xft.autohint: 1
+!Xft.hinting: 1
+!Xft.hintstyle: hintslight
+!Xft.lcdfilter: lcdlight
+!Xft.rgba: rgb
+
+! new font
+URxvt.font: xft:NotoSansMono-Regular:size=10, xft:symbola:size=11
+
+
+
+rofi.combi-modi:    window,drun,ssh
+rofi.theme:         android_notification
+rofi.font:          Inconsolata Nerd Font 14
+rofi.modi: combi
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.columns: 2
+rofi.lines: 10
+
+
